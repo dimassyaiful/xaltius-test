@@ -1,0 +1,82 @@
+ /* Import Font Roboto */ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+  
+ body{
+     padding: 30px;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ /* Navbar */
+ .title{ 
+    font-size: 30px;
+    font-weight: bold;
+
+ }
+
+ .nav-link.active{
+     font-weight: bold;
+     border-bottom: #FF7400 solid 1px;
+ }
+ 
+ .menuMobile{
+     display: none;
+ }
+ /* End Navbar */
+ 
+
+ /* Kanban Style */
+ .kanbanTitle{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .btn-task{ 
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    font-size: 14px;
+    font-weight: normal;
+ }
+ .kanbanCard{
+     background-color: #F8F9FA ;
+     border: none;
+     padding: 30px;
+     font-weight: 500;
+     margin-bottom: 20px;
+ }
+
+ .kanbanText{
+     background-color: #F8F9FA ;
+     border: none;
+     padding: 30px; 
+ }
+ .kanbanDate{
+     background-color: #D5D5D5;
+     color: black;
+     font-size: 12px; 
+     max-width: fit-content;
+     padding: 5px;
+     padding-right: 6px;
+ }
+ .kanbanCard .red{
+    background-color: #F7D7D7;
+    color: #B90808; 
+ }
+ .kanbanCard .yellow{
+    background-color: #FFF1E2;
+    color: #FF7400;     
+ }
+ .kanbanCard .green{
+    background-color: #E8F7D7;
+    color: #139A02;      
+ } 
+ 
+ /* End Kanban Style */
+
+ @media only screen and (max-width: 991px) {
+    .menuMobile{
+        display: block;
+    }
+    .menuWeb{
+        display: none;
+    }
+  }

@@ -1,16 +1,20 @@
-# kanban_flutter_app
-
-A new Flutter project.
+# Kanban Flutter Apps
+ 
 
 ## Getting Started
+1. Clone the project
+2. install the library requirements 
+```
+> flutter pub get
+```
+3. run the project, example in visual studio you can click Tab *Run* > *Run Without Debugging*
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Notes 
+![Alt text](https://raw.githubusercontent.com/dimassyaiful/xaltius-test/main/kanban_flutter_app/screenshots/2.png "Screenshots1")
+![Alt text](https://raw.githubusercontent.com/dimassyaiful/xaltius-test/main/kanban_flutter_app/screenshots/1.png "Screenshots2")
+- The main function of this apps is only to show the data from the API 
+- we can drag the card order inside the list
+- the due date has been set according to the provisions
+- i saw the card's data it's not only from this year, but also from the last year. so for the "Due Date" i added year to make the kanban looks more make sense. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

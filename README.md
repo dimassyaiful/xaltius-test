@@ -10,7 +10,7 @@ Hello, my name is Dimas Syaiful. and this is the react & flutter apps for Xaltiu
  
 ## Flutter Apps
 - My React application is in folder kanban-react-app
-- for apps testing you can download it [here](/kanban_flutter_app/build/app/outputs/flutter-apk/app-release.apk)  
+- for apps testing you can download it [here](/kanban_flutter_app/outputs/flutter-apk/app-release.apk)  
 
 
 ## Notes

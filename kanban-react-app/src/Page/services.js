@@ -7,7 +7,7 @@ export const getData = async ({ setDataNextUp, setInProgress, setDataComplete })
   let data = [];
   await axios({
     method: 'get',
-    url: '/kanban/list',
+    url: 'https://intonasikopi.com/xaltius-api.php',
   }).then(response => {
     data = response.data?.list ?? [];
   })

@@ -24,7 +24,7 @@ const Kanban = ({ data }) => {
             </div>
 
             {
-                cards.map((val, idx) => {
+                cards.length < 1 ? <div class="text-center"> No Data </div> : cards.map((val, idx) => {
                     return <KanbanCard type={title} name={val.name} dueDate={val.dueDate} />
                 })
             }

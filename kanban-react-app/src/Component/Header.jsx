@@ -5,10 +5,10 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 const Header = ({ activePage }) => {
     let nav = [
-        { url: '/#/', title: 'Task' },
-        { url: '/#/activity', title: 'Activity' },
-        { url: '/#/calendar', title: 'Calendar' },
-        { url: '/#/files', title: 'Files' },
+        { url: '/', title: 'Task' },
+        { url: '/activity', title: 'Activity' },
+        { url: '/calendar', title: 'Calendar' },
+        { url: '/files', title: 'Files' },
     ];
 
     return (
